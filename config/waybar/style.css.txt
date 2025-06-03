@@ -1,0 +1,107 @@
+@import "./rose-pine.css";
+* {
+  font-family: "Cascadian Cove";
+  font-size: 14px;
+  font-weight: 600;
+  background: none;
+}
+
+window#waybar {
+  color: @text;
+  border: solid;
+  border-color: @love;
+  border-width: 2px;
+  border-radius: 6px;
+  background: @base;
+  /* padding: 12px; */
+}
+.modules-left,
+.modules-right,
+.modules-center {
+  /* border: solid; */
+  /* border-color: @love; */
+  /* border-width: 2px; */
+  /* border-radius: 6px; */
+  /* background: @base; */
+  padding: 7px 0;
+}
+tooltip {
+  color: @text;
+  background-color: @base;
+  text-shadow: none;
+}
+
+tooltip * {
+  color: @text;
+  text-shadow: none;
+}
+
+/* .modules-center { */
+/* } */
+
+#custom-sep {
+  color: @love;
+}
+
+/* #workspaces, */
+/* #clock, */
+/* #custom-bluetooth_devices, */
+/* #custom-powermenu, */
+/* #pulseaudio, */
+#tray {
+  color: @love;
+}
+/* #workspaces { */
+/* } */
+/* #workspaces button { */
+/*   padding: 0; */
+/*   min-width: 0; */
+/*   font-size: 10px; */
+/*   background: none; */
+/*   color: @text; */
+/* } */
+
+#workspaces button {
+  min-width: 30px;
+  /* min-height: 30px; */
+  padding: 0;
+  margin: 0px 0;
+  font-size: 12px;
+  padding-right: 4px;
+}
+#workspaces button:hover {
+  color: @love;
+}
+#workspaces button.active {
+  color: @love;
+}
+#battery {
+  color: @love;
+  font-size: 22px;
+  /* padding-right: 7px; */
+}
+#temperature {
+  color: @love;
+  font-size: 22px;
+}
+#clock {
+  font-weight: 800;
+  font-size: 22;
+  color: @love;
+}
+/* #custom-bluetooth_devices { */
+/*   color: @pine; */
+/* } */
+#pulseaudio {
+  color: @love;
+  font-size: 22px;
+  padding-right: 7px;
+}
+#pulseaudio.muted {
+  color: @love;
+}
+
+/* #custom-powermenu { */
+/*   margin: 0 0 0 0; */
+/*   color: @overlay; */
+/* } */
